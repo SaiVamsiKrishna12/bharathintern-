@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to header and navigation */
+header {
+    background-color: #333;
+    color: rgb(35, 110, 180);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(151, 208, 82);
+    font-weight: bold;
+}
+
+/* Apply styles to sections */
+section {
+    padding: 2rem;
+}
+
+/* Apply styles to projects */
+.project {
+    margin-bottom: 2rem;
+    border: 1px solid #24c8d0;
+    padding: 1rem;
+}
+
+/* Apply styles to footer */
+footer {
+    background-color: #333;
+    color: rgb(239, 228, 228);
+    text-align: center;
+    padding: 1rem 0;
+}
